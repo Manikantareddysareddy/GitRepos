@@ -1,0 +1,88 @@
+.main-heading {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-weight: bold;
+  font-size: 40px;
+}
+.ul-container {
+  display: flex;
+  flex-direction: row;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-ul-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Failure-view {
+  height: 60vh;
+  width: 50vw;
+  align-self: center;
+}
+.fail-heading {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-weight: bold;
+  font-size: 40px;
+}
+.fail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .main-heading {
+    color: #0f172a;
+    font-family: 'Lobster';
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .ul-container {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .new-ul-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .Failure-view {
+    height: 60vh;
+    width: 50vw;
+    align-self: center;
+  }
+  .fail-heading {
+    color: #0f172a;
+    font-family: 'Lobster';
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .fail-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
